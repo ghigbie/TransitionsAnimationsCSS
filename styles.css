@@ -10,3 +10,12 @@ h1:hover{
 p:hover{
     color: red;
 }
+
+input:focus{
+   background-color: teal; 
+}
+
+button:focus{
+    border-radius: 10px;
+    color: blue;
+}
