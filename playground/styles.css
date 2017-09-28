@@ -42,6 +42,11 @@ button:active{
     background-color: #1abc9c;
 }
 
+.move-up-right{
+    width: 25%;
+    background-color: #3498db;
+}
+
 .move-right:active{
     background-color: #3498db;
     transform: translateX(50%);
@@ -60,4 +65,8 @@ button:active{
 .move-up:active{
     background-color: #3498db;
     transform: translateY(-75%);
+}
+
+.move-up-right:hover{
+    transform: translate(50%, -75%);
 }
