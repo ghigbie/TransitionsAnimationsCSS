@@ -1,6 +1,12 @@
 body{
-    background-color: #f7ad00;
+    background-color: #fcd04b;
+    font-family: Lato, Arial;
     color: #fff;
+}
+
+.header{
+    text-align: center;
+    font-weight: 300;
 }
 
 .btn{
