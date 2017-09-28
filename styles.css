@@ -1,0 +1,12 @@
+body{
+    background-color: #eff2f2;
+
+}
+
+h1:hover{
+    background-color: #30c1c1;
+}
+
+p:hover{
+    color: red;
+}
