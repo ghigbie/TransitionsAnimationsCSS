@@ -11,10 +11,26 @@ body{
     position: relative;
     background-color: #fcad26;
     font-size: 16px;
-    font-weight: 300px;
+    font-weight: 300;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 25px 80px;
     margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 8px #efa424;
+}
+
+.btn:hover{
+    box-shadow: 0 4px #efa424;
+    font-size: 18px;
+    font-weight: 400;
+    top: 2px;
+}
+
+.btn:active{
+    box-shadow: none;
+    font-size: 20px;
+    font-weight: 500;
+    top: 6px;
 }
