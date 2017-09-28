@@ -1,0 +1,20 @@
+body{
+    background-color: #f7ad00;
+    color: #fff;
+}
+
+.btn{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background-color: #fcad26;
+    font-size: 16px;
+    font-weight: 300px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 25px 80px;
+    margin: 0 auto;
+}
