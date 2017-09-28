@@ -34,3 +34,30 @@ button:active{
     color: red;
     font-size: 30px;
 }
+
+.move-right, .move-left,
+.move-down, .move-up{
+    width: 50%;
+    height: 50%;
+    background-color: #1abc9c;
+}
+
+.move-right:active{
+    background-color: #3498db;
+    transform: translateX(50%);
+}
+
+.move-left:active{
+    background-color: #3498db;
+    transform: translateX(-50%);
+}
+
+.move-down:active{
+    background-color: #3498db;
+    transform: translateY(75%);
+}
+
+.move-up:active{
+    background-color: #3498db;
+    transform: translateY(-75%);
+}
