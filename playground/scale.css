@@ -1,72 +1,11 @@
-body{
-    background-color: #eff2f2;
-
-}
-
-h1:hover{
-    background-color: #30c1c1;
-}
-
-h1:active{
-    color: blue;
-}
-
-p:hover{
-    color: red;
-}
-
-p:active{
-    color: green;
-}
-
-input:focus{
-   background-color: teal; 
-   color: red;
-}
-
-button:focus{
-    border-radius: 10px;
-    color: blue;
-}
-
-button:active{
-    background-color: orange;
-    color: red;
-    font-size: 30px;
-}
-
-.move-right, .move-left,
-.move-down, .move-up{
-    width: 50%;
-    height: 50%;
-    background-color: #1abc9c;
-}
-
-.move-up-right{
+p{
     width: 25%;
-    background-color: #3498db;
+    height: 25%;
+    background-color: #1abc9c;
+    color: #ecf0f1;
+    border: 2px solid #2c3e50;
 }
 
-.move-right:active{
-    background-color: #3498db;
-    transform: translateX(50%);
-}
-
-.move-left:active{
-    background-color: #3498db;
-    transform: translateX(-50%);
-}
-
-.move-down:active{
-    background-color: #3498db;
-    transform: translateY(75%);
-}
-
-.move-up:active{
-    background-color: #3498db;
-    transform: translateY(-75%);
-}
-
-.move-up-right:hover{
-    transform: translate(50%, -75%);
+.transformed{
+    transform: scale(2, 0.2);
 }
