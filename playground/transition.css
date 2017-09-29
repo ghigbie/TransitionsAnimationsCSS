@@ -9,16 +9,32 @@
     text-align: center;
 }
 
+/*.box:hover{*/
+/*    background: #e74c3c;*/
+/*    transform-origin: top left;*/
+/*    transform: scale(2) rotate(45deg);*/
+/*    opacity: 0.7;*/
+/*    border-radius: 50px;*/
+/*    font-size: 2em;*/
+/*}*/
+
+/*.animated:hover{*/
+/*    transition-delay: 0.5s, 0.25s, 0.1s, 0.25s;*/
+/*    transition-duration: 2s, 5s, 6s, 3s;*/
+/*    transition-property: transform, background, font-size, border-radius;*/
+/*}*/
+
 .box:hover{
-    background: #e74c3c;
-    transform-origin: top left;
-    transform: scale(2) rotate(45deg);
-    opacity: 0.7;
-    border-radius: 50px;
-    font-size: 2em;
+    transform: translateX(200px);
 }
 
 .animated:hover{
-    transition-duration: 2s, 5s, 6s;
-    transition-property: transform, background, font-size;
+    transition-property: transform;
+    transition-duration: 2s;
+    /*transition-timing-function: linear;*/
+    /*transition-timing-function: ease-in;*/
+    /*transition-timing-function: ease-out;*/
+    /*transition-timing-function: ease;*/
+    /*transition-timing-function: ease-in-out;*/
+    transition-timing-function: ease-out;
 }
