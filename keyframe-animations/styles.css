@@ -1,3 +1,11 @@
+h3 {
+    animation-name: rainbowtext;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
 @keyframes rainbowtext{
     0%{
         color: red;
@@ -7,8 +15,8 @@
         color: orange;
     }
     50%{
-        color: yellow;
-        font-size: 40px;
+        color: purple;
+        font-size: 60px;
     }
     75%{
         color: green;
