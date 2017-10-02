@@ -2,7 +2,7 @@ h3 {
     animation-name: rainbowtext;
     animation-duration: 3s;
     animation-timing-function: ease-out;
-    animation-delay: 3s;
+    animation-delay: 0s;
     animation-iteration-count: infinite;
 }
 
@@ -17,9 +17,13 @@ h3 {
     50%{
         color: purple;
         font-size: 60px;
+        transform: tanslateX(25%);
     }
     75%{
         color: green;
+    }
+    80%{
+        color: yellow;
     }
     100%{
         color: blue;
