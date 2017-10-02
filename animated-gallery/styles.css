@@ -84,7 +84,7 @@ div.item:hover img{
 
 div.item i{
    transform: translate(-50%, -50%) scale(0);
-   transition: transform .2s cubic-bezier(0.75, 0.885, 0.32, 1.25) 0.1s;
+   transition: transform .3s cubic-bezier(0.75, 0.885, 0.32, 1.25) 0.1s;
 }
 
 div.item:hover i{
