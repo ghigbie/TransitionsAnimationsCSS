@@ -56,22 +56,22 @@ body {
 @keyframes sunanimation{
     0%{
         background: #ed8600;
-        transform: translate(0px, 0px)
+        transform: translate(-200px, 200px)
     }
     25%{
         background: #f1c40f;
-        transform: translate(200px, -100px);
+        transform: translate(330px, -100px);
     }
     50%{
         background: #f1c40f;
-        transform: translate(400px, -200px);
+        transform: translate(860px, -200px);
     }
     75%{
         background: #f1c40f;
-        transform: translate(500px, -100px)
+        transform: translate(1390px, -100px)
     }
     100%{
         background: #ed5a00;
-        transform: translate(600px, 100px);
+        transform: translate(1920px, 200px);
     }
 }
